@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>If Statement</title>
+  
+</head>
+<body>
+  <h1>How to Declear if Statement?</h1>
+  <script>
+    let dayOfWeek = prompt('Enter the Day of Week');
+    let result;
+    dayOfWeek = dayOfWeek.toLowerCase();
+
+    if(dayOfWeek == 'monday' || dayOfWeek == 'mon'){
+      document.write(result = 'First day of week');
+    } else if(dayOfWeek == 'tuesday' || dayOfWeek == 'tue'){
+      document.write(result = 'Seconds Days of Week');
+    } else if (dayOfWeek == 'wednesday' || dayOfWeek == 'wed'){
+      document.write(result = 'Mid Week');
+    } else if (dayOfWeek == 'thursday' || dayOfWeek == 'thurs'){
+      document.write(result = 'Preparing for Weekend');
+    } else if (dayOfWeek == 'friday' || dayOfWeek == 'fri'){
+      document.write(result = 'Its Friday');
+    } else if (dayOfWeek == 'saturday' || dayOfWeek == 'sat'){
+      document.write(result = 'Enjoying day')
+    } else if (dayOfWeek == 'sunday' || dayOfWeek == 'sun') {
+      document.write(result = 'Resting Day');
+    } else {
+      document.write(result = 'Cannot find that value');
+    }
+  </script>
+</body>
+</html>
