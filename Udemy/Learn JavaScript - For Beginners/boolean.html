@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boolean</title>
+</head>
+<body>
+  
+<h1>How to call Boolean Value?</h1>
+<p id="demo"></p>
+  <script>
+    let b1 = Boolean(80);
+    let b2 = Boolean(2.86);
+    let b3 = Boolean(-10);
+    let b4 = Boolean("Hi");
+    let b5 = Boolean('false');
+    let b6 = Boolean(1+8+10.14);
+    let b7 = Boolean(0);
+
+    document.getElementById('demo').innerHTML = 
+    '80 is ' + b1 + '<br>' +
+    '2.86 is ' + b2 + '<br>' +
+    '-10 is ' + b3 + '<br>' +
+    'Any (not empty) String is ' + b4 + '<br>' +
+    'The string "false" is ' + b5 + '<br>' +
+    'Any Expression (Except Zero) is ' + b6 + '<br>' +
+    'Zero is ' + b7;
+  </script>
+</body>
+</html>
