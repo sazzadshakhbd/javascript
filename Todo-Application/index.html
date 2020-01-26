@@ -10,6 +10,25 @@
 
 <body>
   <h1>Todo Application</h1>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyD7byiWvBhqu3KgzoBSeihzPJveAwhMvKo",
+      authDomain: "todo-application-944aa.firebaseapp.com",
+      databaseURL: "https://todo-application-944aa.firebaseio.com",
+      projectId: "todo-application-944aa",
+      storageBucket: "todo-application-944aa.appspot.com",
+      messagingSenderId: "347154097237",
+      appId: "1:347154097237:web:1978ce7add6a66604ba0dc",
+      measurementId: "G-TQ67413072"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <script src="app.js"></script>
 </body>
 
