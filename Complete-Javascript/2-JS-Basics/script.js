@@ -62,3 +62,19 @@ console.group(now + 2);
 console.group(now * 2);
 console.group(now / 2);
 console.group(now - 2);
+
+// Logical operator
+
+var adibBirth, nishiBirth;
+adibBirth = 12;
+nishiBirth = 10;
+
+bothComapre = adibBirth > nishiBirth;
+console.log(bothComapre);
+
+// typeof operator
+console.log(typeof adibBirth);
+console.log(typeof bothComapre);
+console.log(typeof "how many types");
+var x;
+console.log(typeof x);
