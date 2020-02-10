@@ -78,3 +78,40 @@ console.log(typeof bothComapre);
 console.log(typeof "how many types");
 var x;
 console.log(typeof x);
+
+/***************************
+ Operator Precedence
+ */
+
+var rahimTillNow = 2020;
+var rahimBirthYear = 1989;
+var rahimTotalAge = 18;
+
+// Multiple Operators
+var isRahimFullAge = rahimTillNow - rahimBirthYear >= rahimTotalAge;
+console.log(isRahimFullAge);
+
+// Grouping operator
+var rahimTotalBirthAge = rahimTillNow - rahimBirthYear;
+var rahimAgeMark = 35;
+var rahimAverage = (rahimTotalBirthAge + rahimAgeMark) / 2;
+console.log(rahimAverage);
+
+// Multiple assignments
+var x, y;
+x = y = (3 + 5) * 4 - 6; // Output 26
+console.log(x, y);
+
+// More Operators
+
+x *= 2;
+console.log(x);
+
+x = x + 10;
+console.log(x);
+
+x -= 5;
+console.log(x);
+
+x++;
+console.log(x);
