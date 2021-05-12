@@ -1,1 +1,5 @@
-console.log("Hello World");
+"use strict";
+myName();
+function myName() {
+  name = "Sazzad";
+}
