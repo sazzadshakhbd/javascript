@@ -1,5 +1,4 @@
 "use strict";
-myName();
-function myName() {
-  name = "Sazzad";
-}
+let parents = ["Mother", "Father", "Sazzad", "Marjia"];
+let family = [...parents, "Adib", "Adiba"];
+console.log(family);
