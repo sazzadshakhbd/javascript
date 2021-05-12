@@ -1,5 +1,8 @@
 "use strict";
-let mystatus = function (x) {
-  return x;
-};
-console.log(mystatus("sazzad"));
+// ReAssign and Redecleared Value
+var name = "Sazzad";
+var name = "sobuz";
+
+let x = "Cat";
+let x = "Cow";
+console.log(x);
