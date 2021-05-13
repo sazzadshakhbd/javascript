@@ -1,9 +1,7 @@
 "use strict";
 
-function myCalculation() {
-  var x = 10;
-  var y = 20;
+function myCalculation(x, y) {
   var z = x + y;
   console.log(z);
 }
-myCalculation();
+myCalculation(10, 20);
