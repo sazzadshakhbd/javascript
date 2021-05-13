@@ -1,7 +1,6 @@
 "use strict";
 
-function myCalculation(x, y) {
-  var z = x + y;
-  console.log(z);
+function myNumber(...x) {
+  console.log(x[10]);
 }
-myCalculation(10, 20);
+myNumber(1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "Sazzad", 3847);
