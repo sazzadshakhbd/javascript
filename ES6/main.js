@@ -1,7 +1,5 @@
 "use strict";
 
-function myFunction() {
-  var myName = "Md. Sazzad Ali Shakh";
-}
-console.log(myName);
-myFunction();
+name = "Md. Sazzad Ali Shakh";
+console.log(name);
+var name;
