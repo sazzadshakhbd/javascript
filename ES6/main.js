@@ -1,8 +1,7 @@
 "use strict";
-// ReAssign and Redecleared Value
-var name = "Sazzad";
-var name = "sobuz";
 
-let x = "Cat";
-let x = "Cow";
-console.log(x);
+function myFunction() {
+  var myName = "Md. Sazzad Ali Shakh";
+}
+console.log(myName);
+myFunction();
