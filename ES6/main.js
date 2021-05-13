@@ -1,6 +1,12 @@
 "use strict";
 
-function myNumber(...x) {
-  console.log(x[10]);
+function funOne() {
+  return "Md. Sazzad Ali Shakh";
 }
-myNumber(1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "Sazzad", 3847);
+function funTwo() {
+  return "With his family";
+}
+function total() {
+  return funOne() + " " + funTwo();
+}
+console.log(total());
