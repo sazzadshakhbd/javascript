@@ -6,6 +6,10 @@ let tree = {
   Alovera: "Three Peace",
   Pudina: "Nine Peace",
 };
-for (let props in tree) {
-  console.log(props + " = " + tree[props]);
+if (tree["mango"] == "two peach") {
+  console.log("two peace mango");
+} else if (tree["mango"] == "three peace") {
+  console.log("three peace mango");
+} else {
+  console.log("Mango is not found");
 }
