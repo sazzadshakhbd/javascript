@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rest Parameter</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  function myFunc(ab, cd, ...numbers) {
+    let sum = 0;
+    for (let i of numbers) {
+      sum = sum + i
+    }
+    document.write(sum)
+  }
+  myFunc(100, 200, 10, 20, 30, 40, 50)
+</script>
+
+</html>
