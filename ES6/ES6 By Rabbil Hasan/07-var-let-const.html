@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Difference between var let & const</title>
+</head>
+
+<body>
+  <h1>Difference between var let & const</h1>
+  <h2>var & let reassign can be done but const not to be reassign</h2>
+  <h2>var redeclare can be done but let & const not be redeclare</h2>
+  <h3>Example Below...</h3>
+</body>
+<script>
+  'use strict'
+  var x = 'sazzad'
+  x = 'sobuz'
+  document.write(x + '<br>'); // Reassign
+  let y = 'Apple'
+  y = 'Orange'
+  document.write(y + '<br>'); // Reassign
+  // const z = 'Cow';
+  // z = 'Bear';
+  // document.write(z); // Not Reassign
+
+  var a = 'pigeon'
+  var a = 'Crow'
+  document.write(a) // Redeclare work
+
+  // let b = 'Pen';
+  // let b = 'Books'
+  // document.write(b) // Redeclare not work
+
+  // const c = 'Adib'
+  // const c = 'Adiba'
+  // document.write(c); // Redeclare not work
+</script>
+
+</html>
