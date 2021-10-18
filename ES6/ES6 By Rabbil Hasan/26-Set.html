@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES6 Set</title>
+</head>
+
+<body>
+  <script>
+    var mySet = new(Set);
+    mySet.add('Bangladesh');
+    mySet.add('India');
+    mySet.add('India');
+    mySet.add('Pakistan');
+    mySet.add('England');
+    mySet.add('South Africa');
+
+    // mySet.clear();
+    mySet.values();
+    mySet.delete('England')
+    // console.log(mySet.size)
+    if (mySet.has('Pakistan')) {
+      console.log('Yes')
+    } else {
+      console.log('No')
+    }
+
+
+
+    var sazzad = new Set(['A', 'B']);
+    console.log(sazzad)
+  </script>
+</body>
+
+</html>
