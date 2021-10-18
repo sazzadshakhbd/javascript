@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES6 Map</title>
+</head>
+
+<body>
+  <script>
+    var myMap = new Map();
+    myMap.set('country1', 'Bangladesh')
+    myMap.set('country2', 'India');
+    myMap.set('country3', 'Pakistan');
+    myMap.set('country4', 'Ireland');
+    myMap.set('country5', 'Australia');
+
+    console.log(myMap.keys())
+    console.log(myMap.values());
+
+    for (let myFunctionalMap of myMap.keys()) {
+      console.log(myFunctionalMap);
+    }
+    for (let x of myMap.values()) {
+      console.log(x)
+    }
+
+    myMap.delete('country1')
+    myMap.delete('country2')
+
+    // myMap.clear();
+
+
+    console.log(myMap.values())
+
+
+    console.log(myMap.get('country5'));
+
+    if (myMap.has('country3')) {
+      console.log('Yes')
+    } else {
+      console.log('No')
+    }
+  </script>
+</body>
+
+</html>
